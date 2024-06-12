@@ -1,0 +1,181 @@
+2024-06-11 08:01:27.467 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 08:01:27.503 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 08:01:27.505 +05:30 [INF] Hosting environment: Development
+2024-06-11 08:01:27.506 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 08:01:36.369 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 08:01:36.434 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 08:01:36.456 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 87.4405ms
+2024-06-11 08:01:36.468 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 08:01:38.905 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 08:01:38.997 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 91.9903ms
+2024-06-11 08:01:39.203 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 08:01:39.476 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 273.1613ms
+2024-06-11 08:01:55.352 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz - null null
+2024-06-11 08:01:55.357 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 08:01:55.371 +05:30 [INF] Route matched with {action = "GetAllQuizzes", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllQuizzes() on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 08:01:56.482 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 08:01:56.504 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api) in 1126.8764ms
+2024-06-11 08:01:56.507 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 08:01:56.509 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz - 200 null application/json; charset=utf-8 1157.1781ms
+2024-06-11 08:02:17.644 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ExcelToJson/ConvertExcelToJson?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - multipart/form-data; boundary=----WebKitFormBoundaryISzefQDgfJyRjwE8 10138
+2024-06-11 08:02:17.650 +05:30 [INF] CORS policy execution successful.
+2024-06-11 08:02:17.651 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api)'
+2024-06-11 08:02:17.662 +05:30 [INF] Route matched with {action = "ConvertExcelToJson", controller = "ExcelToJson"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConvertExcelToJson(Microsoft.AspNetCore.Http.IFormFile, System.Guid) on controller LXP.Api.Controllers.ExcelToJsonController (LXP.Api).
+2024-06-11 08:02:18.196 +05:30 [INF] Executing FileStreamResult, sending file with download name 'convertedData.json' ...
+2024-06-11 08:02:18.200 +05:30 [INF] Executed action LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api) in 536.0587ms
+2024-06-11 08:02:18.202 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api)'
+2024-06-11 08:02:18.205 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ExcelToJson/ConvertExcelToJson?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - 200 932 application/json 560.3094ms
+2024-06-11 08:02:49.244 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizQuestions/GetAllQuestions - null null
+2024-06-11 08:02:49.247 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizQuestionsController.GetAllQuestions (LXP.Api)'
+2024-06-11 08:02:49.250 +05:30 [INF] Route matched with {action = "GetAllQuestions", controller = "QuizQuestions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllQuestions() on controller LXP.Api.Controllers.QuizQuestionsController (LXP.Api).
+2024-06-11 08:02:49.292 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 08:02:49.297 +05:30 [INF] Executed action LXP.Api.Controllers.QuizQuestionsController.GetAllQuestions (LXP.Api) in 44.942ms
+2024-06-11 08:02:49.298 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizQuestionsController.GetAllQuestions (LXP.Api)'
+2024-06-11 08:02:49.300 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizQuestions/GetAllQuestions - 200 null application/json; charset=utf-8 55.5435ms
+2024-06-11 08:03:39.399 +05:30 [INF] Application is shutting down...
+2024-06-11 10:29:59.078 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 10:29:59.110 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 10:29:59.111 +05:30 [INF] Hosting environment: Development
+2024-06-11 10:29:59.112 +05:30 [INF] Content root path: D:\backend\LXP.Api
+2024-06-11 10:30:02.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 10:30:02.794 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 639.7119ms
+2024-06-11 10:30:02.804 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-11 10:30:02.810 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-11 10:30:02.812 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 8.7602ms
+2024-06-11 10:30:02.881 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 71.3692ms
+2024-06-11 10:30:02.945 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 10:30:03.170 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 225.2177ms
+2024-06-11 11:49:06.713 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 11:49:06.764 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 11:49:06.766 +05:30 [INF] Hosting environment: Development
+2024-06-11 11:49:06.767 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 11:49:14.618 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 11:49:14.714 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 11:49:14.746 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 128.2725ms
+2024-06-11 11:49:14.754 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 11:49:17.376 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 11:49:17.481 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 104.7782ms
+2024-06-11 11:49:17.902 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 11:49:18.242 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 340.0678ms
+2024-06-11 11:49:35.986 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz - null null
+2024-06-11 11:49:35.996 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 11:49:36.012 +05:30 [INF] Route matched with {action = "GetAllQuizzes", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllQuizzes() on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 11:49:37.304 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 11:49:37.329 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api) in 1310.7326ms
+2024-06-11 11:49:37.332 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 11:49:37.333 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz - 200 null application/json; charset=utf-8 1347.4251ms
+2024-06-11 11:50:03.236 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5199/api/ExcelToJson/ConvertExcelToJson?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - multipart/form-data; boundary=----WebKitFormBoundaryBcw0g7sR0upNUwIV 12130
+2024-06-11 11:50:03.245 +05:30 [INF] CORS policy execution successful.
+2024-06-11 11:50:03.247 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api)'
+2024-06-11 11:50:03.263 +05:30 [INF] Route matched with {action = "ConvertExcelToJson", controller = "ExcelToJson"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ConvertExcelToJson(Microsoft.AspNetCore.Http.IFormFile, System.Guid) on controller LXP.Api.Controllers.ExcelToJsonController (LXP.Api).
+2024-06-11 11:50:03.992 +05:30 [INF] Executing FileStreamResult, sending file with download name 'convertedData.json' ...
+2024-06-11 11:50:04.000 +05:30 [INF] Executed action LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api) in 734.7839ms
+2024-06-11 11:50:04.003 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.ExcelToJsonController.ConvertExcelToJson (LXP.Api)'
+2024-06-11 11:50:04.005 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5199/api/ExcelToJson/ConvertExcelToJson?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - 200 5052 application/json 768.3617ms
+2024-06-11 11:50:48.476 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizQuestions/GetAllQuestionsByQuizId?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - null null
+2024-06-11 11:50:48.480 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizQuestionsController.GetAllQuestionsByQuizId (LXP.Api)'
+2024-06-11 11:50:48.486 +05:30 [INF] Route matched with {action = "GetAllQuestionsByQuizId", controller = "QuizQuestions"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllQuestionsByQuizId(System.Guid) on controller LXP.Api.Controllers.QuizQuestionsController (LXP.Api).
+2024-06-11 11:50:48.537 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 11:50:48.543 +05:30 [INF] Executed action LXP.Api.Controllers.QuizQuestionsController.GetAllQuestionsByQuizId (LXP.Api) in 54.1015ms
+2024-06-11 11:50:48.545 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizQuestionsController.GetAllQuestionsByQuizId (LXP.Api)'
+2024-06-11 11:50:48.546 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizQuestions/GetAllQuestionsByQuizId?quizId=09aa5f11-7cdf-464e-a111-cf782fcb6dec - 200 null application/json; charset=utf-8 69.86ms
+2024-06-11 11:51:35.178 +05:30 [INF] Application is shutting down...
+2024-06-11 14:32:57.441 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 14:32:57.482 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 14:32:57.485 +05:30 [INF] Hosting environment: Development
+2024-06-11 14:32:57.485 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 14:33:04.769 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 14:33:04.853 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 14:33:04.890 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 122.137ms
+2024-06-11 14:33:04.904 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 14:33:14.684 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 14:33:14.745 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 60.3034ms
+2024-06-11 14:33:14.859 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 14:33:15.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.7035ms
+2024-06-11 14:52:10.086 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 14:52:10.193 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 106.2169ms
+2024-06-11 14:52:10.284 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/favicon.ico - null null
+2024-06-11 14:52:10.288 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/favicon.ico - 404 0 null 3.6073ms
+2024-06-11 14:52:10.290 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/favicon.ico, Response status code: 404
+2024-06-11 15:20:59.261 +05:30 [INF] Application is shutting down...
+2024-06-11 15:21:22.533 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 15:21:22.623 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 15:21:22.628 +05:30 [INF] Hosting environment: Development
+2024-06-11 15:21:22.630 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 15:21:35.089 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 15:21:35.748 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 15:21:35.912 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 833.2305ms
+2024-06-11 15:21:35.969 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 15:21:38.643 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 15:21:38.877 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 234.4237ms
+2024-06-11 15:21:39.484 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 15:21:40.230 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 746.298ms
+2024-06-11 15:21:58.780 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz - null null
+2024-06-11 15:21:58.822 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 15:21:58.884 +05:30 [INF] Route matched with {action = "GetAllQuizzes", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllQuizzes() on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 15:22:03.794 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 15:22:03.896 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api) in 4985.9021ms
+2024-06-11 15:22:03.906 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 15:22:03.915 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz - 200 null application/json; charset=utf-8 5135.202ms
+2024-06-11 15:22:29.835 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz/09aa5f11-7cdf-464e-a111-cf782fcb6ded - null null
+2024-06-11 15:22:29.857 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api)'
+2024-06-11 15:22:29.915 +05:30 [INF] Route matched with {action = "GetQuizById", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetQuizById(System.Guid) on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 15:22:30.543 +05:30 [INF] Executing ContentResult with HTTP Response ContentType of text/html
+2024-06-11 15:22:30.554 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api) in 628.0477ms
+2024-06-11 15:22:30.565 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api)'
+2024-06-11 15:22:30.573 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz/09aa5f11-7cdf-464e-a111-cf782fcb6ded - 404 342 text/html 737.9091ms
+2024-06-11 15:22:44.926 +05:30 [INF] Application is shutting down...
+2024-06-11 15:25:03.800 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 15:25:03.886 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 15:25:03.893 +05:30 [INF] Hosting environment: Development
+2024-06-11 15:25:03.899 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 15:25:12.024 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 15:25:12.288 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 15:25:12.315 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 296.0966ms
+2024-06-11 15:25:12.357 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 15:25:18.164 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 15:25:18.378 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 214.5482ms
+2024-06-11 15:25:18.846 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 15:25:19.981 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 1134.958ms
+2024-06-11 15:25:29.531 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz - null null
+2024-06-11 15:25:29.554 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 15:25:29.604 +05:30 [INF] Route matched with {action = "GetAllQuizzes", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllQuizzes() on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 15:25:33.006 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 15:25:33.086 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api) in 3460.1822ms
+2024-06-11 15:25:33.096 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 15:25:33.104 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz - 200 null application/json; charset=utf-8 3572.8864ms
+2024-06-11 15:25:46.191 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz/09aa5f11-7cdf-464e-a111-cf782fcb6dec - null null
+2024-06-11 15:25:46.225 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api)'
+2024-06-11 15:25:46.257 +05:30 [INF] Route matched with {action = "GetQuizById", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetQuizById(System.Guid) on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 15:25:46.343 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 15:25:46.351 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api) in 80.1467ms
+2024-06-11 15:25:46.359 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetQuizById (LXP.Api)'
+2024-06-11 15:25:46.366 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz/09aa5f11-7cdf-464e-a111-cf782fcb6dec - 200 null application/json; charset=utf-8 174.2072ms
+2024-06-11 15:56:27.777 +05:30 [INF] Application is shutting down...
+2024-06-11 16:38:37.325 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-11 16:38:37.471 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-11 16:38:37.475 +05:30 [INF] Hosting environment: Development
+2024-06-11 16:38:37.478 +05:30 [INF] Content root path: D:\backend\LXP.API
+2024-06-11 16:38:52.886 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-11 16:38:53.002 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-11 16:38:53.033 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 148.7671ms
+2024-06-11 16:38:53.043 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-11 16:38:57.175 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-11 16:38:57.255 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 80.754ms
+2024-06-11 16:38:57.431 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-11 16:38:57.811 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 380.0446ms
+2024-06-11 16:39:08.587 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Quiz - null null
+2024-06-11 16:39:08.594 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 16:39:08.611 +05:30 [INF] Route matched with {action = "GetAllQuizzes", controller = "Quiz"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllQuizzes() on controller LXP.Api.Controllers.QuizController (LXP.Api).
+2024-06-11 16:39:11.119 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 16:39:11.156 +05:30 [INF] Executed action LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api) in 2537.1457ms
+2024-06-11 16:39:11.159 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizController.GetAllQuizzes (LXP.Api)'
+2024-06-11 16:39:11.161 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Quiz - 200 null application/json; charset=utf-8 2574.0855ms
+2024-06-11 16:40:33.923 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizFeedback/GetAllFeedbackQuestions - null null
+2024-06-11 16:40:33.933 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizFeedbackController.GetAllFeedbackQuestions (LXP.Api)'
+2024-06-11 16:40:33.951 +05:30 [INF] Route matched with {action = "GetAllFeedbackQuestions", controller = "QuizFeedback"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFeedbackQuestions() on controller LXP.Api.Controllers.QuizFeedbackController (LXP.Api).
+2024-06-11 16:40:34.140 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.APIResponse'.
+2024-06-11 16:40:34.145 +05:30 [INF] Executed action LXP.Api.Controllers.QuizFeedbackController.GetAllFeedbackQuestions (LXP.Api) in 187.3876ms
+2024-06-11 16:40:34.147 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizFeedbackController.GetAllFeedbackQuestions (LXP.Api)'
+2024-06-11 16:40:34.150 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizFeedback/GetAllFeedbackQuestions - 200 null application/json; charset=utf-8 226.8254ms
+2024-06-11 16:48:26.145 +05:30 [INF] Application is shutting down...

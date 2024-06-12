@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "9QhD+nsbZF0v5MgOheK6Fleqo1Y8lgMvC5MF1T7m/l0=",
+  "Source": "LXP.Api",
+  "BasePath": "_content/LXP.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "LXP.Api\\wwwroot",
+      "Source": "LXP.Api",
+      "ContentRoot": "D:\\LXP\\Backend.QaF\\LXP.Api\\wwwroot\\",
+      "BasePath": "_content/LXP.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

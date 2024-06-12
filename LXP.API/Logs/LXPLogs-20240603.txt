@@ -1,0 +1,49 @@
+2024-06-03 09:45:37.766 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-03 09:45:37.807 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-03 09:45:37.810 +05:30 [INF] Hosting environment: Development
+2024-06-03 09:45:37.811 +05:30 [INF] Content root path: D:\Caps\LXP.Backend Merged\LXP.Api
+2024-06-03 09:45:40.849 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-03 09:45:41.346 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 504.193ms
+2024-06-03 09:45:41.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_vs/browserLink - null null
+2024-06-03 09:45:41.353 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - null null
+2024-06-03 09:45:41.369 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_framework/aspnetcore-browser-refresh.js - 200 13750 application/javascript; charset=utf-8 15.5683ms
+2024-06-03 09:45:41.431 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/_vs/browserLink - 200 null text/javascript; charset=UTF-8 78.49ms
+2024-06-03 09:45:41.556 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-03 09:45:41.743 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 186.874ms
+2024-06-03 09:46:18.275 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - null null
+2024-06-03 09:46:18.293 +05:30 [INF] CORS policy execution successful.
+2024-06-03 09:46:18.297 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-03 09:46:18.302 +05:30 [INF] Executing endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:18.322 +05:30 [INF] Route matched with {action = "GetQuizQuestions", controller = "QuizEngine"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetQuizQuestions(System.Guid) on controller QuizEngineController (LXP.Api).
+2024-06-03 09:46:19.299 +05:30 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[LXP.Common.ViewModels.QuizEngineViewModel.QEQuizQuestionViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-03 09:46:19.585 +05:30 [INF] Executed action QuizEngineController.GetQuizQuestions (LXP.Api) in 1255.5947ms
+2024-06-03 09:46:19.588 +05:30 [INF] Executed endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:19.591 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - 499 null application/json; charset=utf-8 1317.3897ms
+2024-06-03 09:46:19.694 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - null null
+2024-06-03 09:46:19.706 +05:30 [INF] CORS policy execution successful.
+2024-06-03 09:46:19.708 +05:30 [INF] Executing endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:19.710 +05:30 [INF] Route matched with {action = "GetQuizQuestions", controller = "QuizEngine"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetQuizQuestions(System.Guid) on controller QuizEngineController (LXP.Api).
+2024-06-03 09:46:19.719 +05:30 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[LXP.Common.ViewModels.QuizEngineViewModel.QEQuizQuestionViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-03 09:46:19.974 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - null null
+2024-06-03 09:46:19.977 +05:30 [INF] CORS policy execution successful.
+2024-06-03 09:46:19.978 +05:30 [INF] Executing endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:19.980 +05:30 [INF] Route matched with {action = "GetQuizQuestions", controller = "QuizEngine"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetQuizQuestions(System.Guid) on controller QuizEngineController (LXP.Api).
+2024-06-03 09:46:19.984 +05:30 [INF] Executing OkObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Query.Internal.EntityQueryable`1[[LXP.Common.ViewModels.QuizEngineViewModel.QEQuizQuestionViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-03 09:46:19.986 +05:30 [INF] Executed action QuizEngineController.GetQuizQuestions (LXP.Api) in 271.1796ms
+2024-06-03 09:46:19.988 +05:30 [INF] Executed endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:19.990 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - 200 null application/json; charset=utf-8 296.2658ms
+2024-06-03 09:46:19.999 +05:30 [INF] Executed action QuizEngineController.GetQuizQuestions (LXP.Api) in 16.8089ms
+2024-06-03 09:46:20.000 +05:30 [INF] Executed endpoint 'QuizEngineController.GetQuizQuestions (LXP.Api)'
+2024-06-03 09:46:20.001 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/quiz/1cf196c9-e9f7-4224-83be-e2d3dca69976/questions - 200 null application/json; charset=utf-8 27.5142ms
+2024-06-03 09:46:26.377 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempt/08dc8226-a608-420f-8a83-a3f0009aaf24/review - null null
+2024-06-03 09:46:26.382 +05:30 [INF] CORS policy execution successful.
+2024-06-03 09:46:26.383 +05:30 [INF] Executing endpoint 'QuizEngineController.ReviewQuizAttemptWithoutCorrectAnswers (LXP.Api)'
+2024-06-03 09:46:26.388 +05:30 [INF] Route matched with {action = "ReviewQuizAttemptWithoutCorrectAnswers", controller = "QuizEngine"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ReviewQuizAttemptWithoutCorrectAnswers(System.Guid) on controller QuizEngineController (LXP.Api).
+2024-06-03 09:46:26.468 +05:30 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[LXP.Common.ViewModels.QuizEngineViewModel.QuestionAndUserAnswerViewModel, LXP.Common, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2024-06-03 09:46:26.474 +05:30 [INF] Executed action QuizEngineController.ReviewQuizAttemptWithoutCorrectAnswers (LXP.Api) in 82.0918ms
+2024-06-03 09:46:26.476 +05:30 [INF] Executed endpoint 'QuizEngineController.ReviewQuizAttemptWithoutCorrectAnswers (LXP.Api)'
+2024-06-03 09:46:26.477 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempt/08dc8226-a608-420f-8a83-a3f0009aaf24/review - 200 null application/json; charset=utf-8 100.1286ms
+2024-06-03 09:55:52.439 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/Get/topic/6c4bcc2f-535d-4792-a978-da9e75047120 - null null
+2024-06-03 09:55:52.446 +05:30 [INF] CORS policy execution successful.
+2024-06-03 09:55:52.447 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/Get/topic/6c4bcc2f-535d-4792-a978-da9e75047120 - 404 0 null 8.7256ms
+2024-06-03 09:55:52.453 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/api/Get/topic/6c4bcc2f-535d-4792-a978-da9e75047120, Response status code: 404

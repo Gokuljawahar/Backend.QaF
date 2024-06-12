@@ -1,0 +1,110 @@
+2024-06-09 15:24:00.851 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 15:24:00.892 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 15:24:00.894 +05:30 [INF] Hosting environment: Development
+2024-06-09 15:24:00.895 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 15:24:16.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-09 15:24:17.112 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 15:24:17.152 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 194.6684ms
+2024-06-09 15:24:17.175 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-09 15:24:22.688 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 15:24:22.737 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 48.8912ms
+2024-06-09 15:24:22.748 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - null null
+2024-06-09 15:24:22.748 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - null null
+2024-06-09 15:24:22.749 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - null null
+2024-06-09 15:24:22.761 +05:30 [INF] The file /swagger-ui-bundle.js was not modified
+2024-06-09 15:24:22.761 +05:30 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2024-06-09 15:24:22.761 +05:30 [INF] The file /swagger-ui.css was not modified
+2024-06-09 15:24:22.764 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-bundle.js - 304 null text/javascript 15.559ms
+2024-06-09 15:24:22.765 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 15.3847ms
+2024-06-09 15:24:22.766 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/swagger-ui.css - 304 null text/css 18.2739ms
+2024-06-09 15:24:23.071 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 15:24:23.213 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 142.0251ms
+2024-06-09 15:38:00.741 +05:30 [INF] Application is shutting down...
+2024-06-09 15:38:17.102 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 15:38:17.148 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 15:38:17.149 +05:30 [INF] Hosting environment: Development
+2024-06-09 15:38:17.150 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 15:40:05.726 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempts/08dc86e2-15f7-4ed9-882e-3e481aeede59/result - null null
+2024-06-09 15:40:05.782 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 15:40:05.787 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api)'
+2024-06-09 15:40:05.807 +05:30 [INF] Route matched with {action = "GetLearnerQuizAttemptResult", controller = "QuizEngine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLearnerQuizAttemptResult(System.Guid) on controller LXP.Api.Controllers.QuizEngineController (LXP.Api).
+2024-06-09 15:40:07.383 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.QuizEngineViewModel.LearnerQuizAttemptResultViewModel'.
+2024-06-09 15:40:07.413 +05:30 [INF] Executed action LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api) in 1601.4552ms
+2024-06-09 15:40:07.415 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api)'
+2024-06-09 15:40:07.420 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempts/08dc86e2-15f7-4ed9-882e-3e481aeede59/result - 200 null application/json; charset=utf-8 1694.2437ms
+2024-06-09 15:42:14.043 +05:30 [INF] Application is shutting down...
+2024-06-09 16:02:56.365 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 16:02:56.431 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 16:02:56.433 +05:30 [INF] Hosting environment: Development
+2024-06-09 16:02:56.434 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 16:12:35.150 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempts/08dc86e2-15f7-4ed9-882e-3e481aeede59/result - null null
+2024-06-09 16:12:35.229 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 16:12:35.233 +05:30 [INF] Executing endpoint 'LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api)'
+2024-06-09 16:12:35.254 +05:30 [INF] Route matched with {action = "GetLearnerQuizAttemptResult", controller = "QuizEngine"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetLearnerQuizAttemptResult(System.Guid) on controller LXP.Api.Controllers.QuizEngineController (LXP.Api).
+2024-06-09 16:12:36.807 +05:30 [INF] Executing OkObjectResult, writing value of type 'LXP.Common.ViewModels.QuizEngineViewModel.LearnerQuizAttemptResultViewModel'.
+2024-06-09 16:12:36.842 +05:30 [INF] Executed action LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api) in 1582.3783ms
+2024-06-09 16:12:36.844 +05:30 [INF] Executed endpoint 'LXP.Api.Controllers.QuizEngineController.GetLearnerQuizAttemptResult (LXP.Api)'
+2024-06-09 16:12:36.848 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/api/QuizEngine/attempts/08dc86e2-15f7-4ed9-882e-3e481aeede59/result - 200 null application/json; charset=utf-8 1698.3505ms
+2024-06-09 17:47:54.652 +05:30 [INF] Application is shutting down...
+2024-06-09 17:53:01.441 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 17:53:01.480 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 17:53:01.482 +05:30 [INF] Hosting environment: Development
+2024-06-09 17:53:01.484 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 17:53:12.377 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-09 17:53:12.518 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 17:53:12.556 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 185.0544ms
+2024-06-09 17:53:12.568 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-09 17:53:17.346 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 17:53:17.428 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 81.6302ms
+2024-06-09 17:53:17.721 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 17:53:17.836 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 115.9341ms
+2024-06-09 17:54:12.748 +05:30 [INF] Application is shutting down...
+2024-06-09 17:58:02.703 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 17:58:02.746 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 17:58:02.749 +05:30 [INF] Hosting environment: Development
+2024-06-09 17:58:02.752 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 17:58:15.429 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 17:58:15.555 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 127.7378ms
+2024-06-09 17:58:15.667 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 17:58:15.815 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 149.1275ms
+2024-06-09 18:13:14.772 +05:30 [INF] Application is shutting down...
+2024-06-09 18:13:56.587 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 18:13:56.634 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 18:13:56.636 +05:30 [INF] Hosting environment: Development
+2024-06-09 18:13:56.637 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 18:15:45.937 +05:30 [INF] Application is shutting down...
+2024-06-09 18:16:17.866 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 18:16:17.904 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 18:16:17.907 +05:30 [INF] Hosting environment: Development
+2024-06-09 18:16:17.908 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 18:16:28.014 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 18:16:28.192 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 178.892ms
+2024-06-09 18:16:28.547 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 18:16:28.752 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 205.8045ms
+2024-06-09 19:32:37.215 +05:30 [INF] Application is shutting down...
+2024-06-09 20:01:08.284 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 20:01:08.363 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 20:01:08.369 +05:30 [INF] Hosting environment: Development
+2024-06-09 20:01:08.379 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 20:01:16.788 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-09 20:01:16.897 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 20:01:16.921 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 135.5109ms
+2024-06-09 20:01:16.934 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-09 20:01:31.538 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 20:01:31.607 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 68.8205ms
+2024-06-09 20:01:31.885 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 20:01:31.997 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 111.6448ms
+2024-06-09 20:25:50.533 +05:30 [INF] Application is shutting down...
+2024-06-09 21:56:37.878 +05:30 [INF] Now listening on: http://localhost:5199
+2024-06-09 21:56:37.932 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2024-06-09 21:56:37.934 +05:30 [INF] Hosting environment: Development
+2024-06-09 21:56:37.936 +05:30 [INF] Content root path: D:\LXP.backend2\LXP.Backend-QE-Merged\LXP.API
+2024-06-09 21:56:55.580 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/ - null null
+2024-06-09 21:56:55.674 +05:30 [WRN] Failed to determine the https port for redirect.
+2024-06-09 21:56:55.700 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/ - 404 0 null 121.6634ms
+2024-06-09 21:56:55.710 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5199/, Response status code: 404
+2024-06-09 21:57:01.169 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/index.html - null null
+2024-06-09 21:57:01.238 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/index.html - 200 null text/html;charset=utf-8 68.8059ms
+2024-06-09 21:57:01.354 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - null null
+2024-06-09 21:57:01.469 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5199/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 114.7255ms
+2024-06-09 22:34:59.050 +05:30 [INF] Application is shutting down...
