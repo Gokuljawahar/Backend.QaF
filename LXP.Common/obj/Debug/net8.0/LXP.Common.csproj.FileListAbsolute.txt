@@ -254,3 +254,4 @@ D:\LXP\Backend.QaF\LXP.Common\obj\Debug\net8.0\LXP.Common.dll
 D:\LXP\Backend.QaF\LXP.Common\obj\Debug\net8.0\refint\LXP.Common.dll
 D:\LXP\Backend.QaF\LXP.Common\obj\Debug\net8.0\LXP.Common.pdb
 D:\LXP\Backend.QaF\LXP.Common\obj\Debug\net8.0\ref\LXP.Common.dll
+D:\LXP\Backend.QaF\LXP.Common\obj\Debug\net8.0\LXP.Common.sourcelink.json

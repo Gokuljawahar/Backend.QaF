@@ -105,7 +105,7 @@
             <summary>
             Deletes a quiz by its ID.
             </summary>
-            <param name="quizId">The unique identifier of the quiz to delete.</param>
+            <param name="quizId" >The unique identifier of the quiz to delete.</param>
             <response code="204">No content on successful deletion.</response>
             <response code="404">Not found if no quiz exists with the provided ID.</response>
         </member>
@@ -184,6 +184,11 @@
             <response code="204">Feedback questions deleted successfully</response>
             <response code="404">Feedback questions not found</response>
             <response code="500">Internal server error</response>
+        </member>
+        <member name="T:LXP.Api.Controllers.QuizQuestionsController">
+            <summary>
+            Handles operations related to quiz questions.
+            </summary>
         </member>
         <member name="M:LXP.Api.Controllers.QuizQuestionsController.AddQuestion(LXP.Common.ViewModels.QuizQuestionViewModel.QuizQuestionViewModel)">
             <summary>

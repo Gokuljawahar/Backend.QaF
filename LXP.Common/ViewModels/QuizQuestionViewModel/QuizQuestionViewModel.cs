@@ -13,6 +13,8 @@ namespace LXP.Common.ViewModels.QuizQuestionViewModel
         public string Question { get; set; } = null!;
         public string QuestionType { get; set; } = null!;
 
+        
+
         public List<QuestionOptionViewModel> Options { get; set; } =
             new List<QuestionOptionViewModel>();
     }

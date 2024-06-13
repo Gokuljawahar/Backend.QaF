@@ -3516,3 +3516,4 @@ D:\LXP\Backend.QaF\LXP.Data.Tests\obj\Debug\net8.0\refint\LXP.Data.Tests.dll
 D:\LXP\Backend.QaF\LXP.Data.Tests\obj\Debug\net8.0\LXP.Data.Tests.pdb
 D:\LXP\Backend.QaF\LXP.Data.Tests\obj\Debug\net8.0\LXP.Data.Tests.genruntimeconfig.cache
 D:\LXP\Backend.QaF\LXP.Data.Tests\obj\Debug\net8.0\ref\LXP.Data.Tests.dll
+D:\LXP\Backend.QaF\LXP.Data.Tests\obj\Debug\net8.0\LXP.Data.Tests.sourcelink.json

@@ -3200,3 +3200,4 @@ D:\LXP\Backend.QaF\LXP.Core.Tests\obj\Debug\net8.0\refint\LXP.Core.Tests.dll
 D:\LXP\Backend.QaF\LXP.Core.Tests\obj\Debug\net8.0\LXP.Core.Tests.pdb
 D:\LXP\Backend.QaF\LXP.Core.Tests\obj\Debug\net8.0\LXP.Core.Tests.genruntimeconfig.cache
 D:\LXP\Backend.QaF\LXP.Core.Tests\obj\Debug\net8.0\ref\LXP.Core.Tests.dll
+D:\LXP\Backend.QaF\LXP.Core.Tests\obj\Debug\net8.0\LXP.Core.Tests.sourcelink.json
