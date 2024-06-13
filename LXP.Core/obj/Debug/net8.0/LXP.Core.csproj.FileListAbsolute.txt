@@ -394,3 +394,4 @@ D:\LXP\Backend.QaF\LXP.Core\obj\Debug\net8.0\refint\LXP.Core.dll
 D:\LXP\Backend.QaF\LXP.Core\obj\Debug\net8.0\LXP.Core.pdb
 D:\LXP\Backend.QaF\LXP.Core\obj\Debug\net8.0\LXP.Core.genruntimeconfig.cache
 D:\LXP\Backend.QaF\LXP.Core\obj\Debug\net8.0\ref\LXP.Core.dll
+D:\LXP\Backend.QaF\LXP.Core\obj\Debug\net8.0\LXP.Core.sourcelink.json

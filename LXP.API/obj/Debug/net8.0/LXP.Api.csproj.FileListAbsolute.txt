@@ -2902,3 +2902,4 @@ D:\LXP\Backend.QaF\LXP.Api\obj\Debug\net8.0\LXP.Api.xml
 D:\LXP\Backend.QaF\LXP.Api\obj\Debug\net8.0\LXP.Api.pdb
 D:\LXP\Backend.QaF\LXP.Api\obj\Debug\net8.0\LXP.Api.genruntimeconfig.cache
 D:\LXP\Backend.QaF\LXP.Api\obj\Debug\net8.0\ref\LXP.Api.dll
+D:\LXP\Backend.QaF\LXP.Api\obj\Debug\net8.0\LXP.Api.sourcelink.json

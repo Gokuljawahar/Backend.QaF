@@ -42,8 +42,8 @@ namespace LXP.Core.Services
                 Duration = quiz.Duration,
                 PassMark = quiz.PassMark,
                 AttemptsAllowed = quiz.AttemptsAllowed,
-                // CreatedBy = "System", // Updated
-                // CreatedAt = DateTime.Now // Updated
+                CreatedBy = "Admin", // Updated
+                CreatedAt = DateTime.Now // Updated
             };
 
             _quizRepository.AddQuiz(quizEntity);

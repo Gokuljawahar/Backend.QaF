@@ -101,7 +101,14 @@
             <response code="400">Bad request due to invalid input (e.g., missing or empty name, negative duration, etc.).</response>
             <response code="404">Not found if no quiz exists with the provided ID.</response>
         </member>
-        <!-- Badly formed XML comment ignored for member "M:LXP.Api.Controllers.QuizController.DeleteQuiz(System.Guid,System.Boolean)" -->
+        <member name="M:LXP.Api.Controllers.QuizController.DeleteQuiz(System.Guid)">
+            <summary>
+            Deletes a quiz by its ID.
+            </summary>
+            <param name="quizId" >The unique identifier of the quiz to delete.</param>
+            <response code="204">No content on successful deletion.</response>
+            <response code="404">Not found if no quiz exists with the provided ID.</response>
+        </member>
         <member name="M:LXP.Api.Controllers.QuizEngineController.SubmitAnswerBatch(LXP.Common.ViewModels.QuizEngineViewModel.AnswerSubmissionBatchModel)">
             <summary>
             Api  Endpoint in development stage not ready to use yet
